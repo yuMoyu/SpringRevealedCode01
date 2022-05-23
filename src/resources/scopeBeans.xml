@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE beans PUBLIC
+        "-//SPRING//DTD BEAN//EN"
+        "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <!-- 配置person类 -->
+    <bean id="user" class="scope.User" scope="singleton"></bean>
+    <bean id="car" class="scope.Car" scope="prototype"></bean>
+</beans>
